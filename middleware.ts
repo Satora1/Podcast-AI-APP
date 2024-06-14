@@ -3,7 +3,7 @@ import {
     createRouteMatcher
 } from '@clerk/nextjs/server';
 
-const isPublicRoute = createRouteMatcher(["/sing-in", "/sign-up", "/"])
+const isPublicRoute = createRouteMatcher(["/sign-in(.*)", "/sign-up(.*)", "/"])
 
 
 
